@@ -110,3 +110,25 @@
 #define $MotorIN_GPIOPort 			GPIOB
 #define $MotorIN1_GPIOPin 			GPIO_Pin_9
 #define $MotorIN2_GPIOPin 			GPIO_Pin_9
+
+//IC								
+#define $IC_TIMRCC					RCC_APB1Periph_TIM2
+#define $IC_TIM 					TIM2
+#define $IC_RCC 					RCC_APB2Periph_GPIOB
+#define $IC_GPIOPort 				GPIOB
+#define $IC_GPIOPin 				GPIO_Pin_9
+
+//PWMI								
+#define $PWMI_TIMRCC				RCC_APB1Periph_TIM2
+#define $PWMI_TIM 					TIM2
+#define $PWMI_RCC 					RCC_APB2Periph_GPIOB
+#define $PWMI_GPIOPort 				GPIOB
+#define $PWMI_GPIOPin 				GPIO_Pin_9
+
+//IC								
+#define $TIMEncoder_TIMRCC					RCC_APB1Periph_TIM2
+#define $TIMEncoder_TIM 					TIM2
+#define $TIMEncoder_RCC 					RCC_APB2Periph_GPIOB
+#define $TIMEncoder_GPIOPort 				GPIOB
+#define $TIMEncoder_GPIOPin1 				GPIO_Pin_9
+#define $TIMEncoder_GPIOPin2 				GPIO_Pin_9

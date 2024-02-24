@@ -37,3 +37,8 @@ void PWM_SetCompare1(u16 Compare)
 {
 	TIM_SetCompare1($PWM_TIM,Compare);
 }
+
+void PWM_SetPrescaler(u16 Prescaler)
+{
+	TIM_PrescalerConfig($PWM_TIM, Prescaler - 1, TIM_PSCReloadMode_Update);
+}
