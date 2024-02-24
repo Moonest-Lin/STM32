@@ -4,7 +4,7 @@ void Servo_Init(void)
 {
 	RCC_APB1PeriphClockCmd($Servo_TIMRCC, ENABLE);
 	
-	RCC_APB2PeriphClockCmd($Servo_RCC, ENABLE);
+	RCC_APB2PeriphClockCmd($Servo_GPIORCC, ENABLE);
 	
 	GPIO_InitTypeDef GPIO_InitStruct;
 	GPIO_InitStruct.GPIO_Mode = GPIO_Mode_AF_PP;

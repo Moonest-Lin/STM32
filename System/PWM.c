@@ -4,7 +4,7 @@ void PWM_Init(void)
 {
 	RCC_APB1PeriphClockCmd($PWM_TIMRCC, ENABLE);
 	
-	RCC_APB2PeriphClockCmd($PWM_RCC, ENABLE);
+	RCC_APB2PeriphClockCmd($PWM_GPIORCC, ENABLE);
 	
 	GPIO_InitTypeDef GPIO_InitStruct;
 	GPIO_InitStruct.GPIO_Mode = GPIO_Mode_AF_PP;

@@ -4,7 +4,7 @@ s16 Encoder_Count;
 
 void Encoder_Init(void)
 {
-	RCC_APB2PeriphClockCmd($Encoder_RCC, ENABLE);
+	RCC_APB2PeriphClockCmd($Encoder_GPIORCC, ENABLE);
 	RCC_APB2PeriphClockCmd(RCC_APB2Periph_AFIO, ENABLE);
 	
 	GPIO_InitTypeDef GPIO_InitStruct;

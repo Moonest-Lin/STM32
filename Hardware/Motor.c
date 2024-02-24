@@ -4,8 +4,8 @@ void Motor_Init(void)
 {
 	RCC_APB1PeriphClockCmd($Motor_TIMRCC, ENABLE);
 	
-	RCC_APB2PeriphClockCmd($Motor_RCC, ENABLE);
-	RCC_APB2PeriphClockCmd($MotorIN_RCC, ENABLE);
+	RCC_APB2PeriphClockCmd($Motor_GPIORCC, ENABLE);
+	RCC_APB2PeriphClockCmd($MotorIN_GPIORCC, ENABLE);
 	
 	GPIO_InitTypeDef GPIO_InitStruct;
 	GPIO_InitStruct.GPIO_Mode = GPIO_Mode_AF_PP;

@@ -4,7 +4,7 @@ void IC_Init(void)
 {
 	RCC_APB1PeriphClockCmd($IC_TIMRCC, ENABLE);
 	
-	RCC_APB2PeriphClockCmd($IC_RCC, ENABLE);
+	RCC_APB2PeriphClockCmd($IC_GPIORCC, ENABLE);
 	
 	GPIO_InitTypeDef GPIO_InitStruct;
 	GPIO_InitStruct.GPIO_Mode = GPIO_Mode_IPU;

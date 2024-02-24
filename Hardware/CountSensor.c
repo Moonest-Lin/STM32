@@ -4,7 +4,7 @@ u16 CountSensor_Count;
 
 void CountSensor_Init(void)
 {
-	RCC_APB2PeriphClockCmd($CountSensor_RCC, ENABLE);
+	RCC_APB2PeriphClockCmd($CountSensor_GPIORCC, ENABLE);
 	RCC_APB2PeriphClockCmd(RCC_APB2Periph_AFIO, ENABLE);
 	
 	GPIO_InitTypeDef GPIO_InitStruct;

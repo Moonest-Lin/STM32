@@ -3,7 +3,7 @@
 
 void KEY_Init(void)
 {
-	RCC_APB2PeriphClockCmd($KeyUp_RCC | $Key0_RCC, ENABLE);
+	RCC_APB2PeriphClockCmd($KeyUp_GPIORCC | $Key0_GPIORCC, ENABLE);
 	GPIO_InitTypeDef GPIO_InitStruct;
 	
 	GPIO_InitStruct.GPIO_Mode = GPIO_Mode_IPD;

@@ -4,7 +4,7 @@ void PWMI_Init(void)
 {
 	RCC_APB1PeriphClockCmd($PWMI_TIMRCC, ENABLE);
 	
-	RCC_APB2PeriphClockCmd($PWMI_RCC, ENABLE);
+	RCC_APB2PeriphClockCmd($PWMI_GPIORCC, ENABLE);
 	
 	GPIO_InitTypeDef GPIO_InitStruct;
 	GPIO_InitStruct.GPIO_Mode = GPIO_Mode_IPU;

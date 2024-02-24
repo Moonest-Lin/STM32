@@ -5,7 +5,7 @@ LED
 *********************/
 void LED_Init(void)
 {
-	RCC_APB2PeriphClockCmd($LED0_RCC|$LED1_RCC, ENABLE);
+	RCC_APB2PeriphClockCmd($LED0_GPIORCC | $LED1_GPIORCC, ENABLE);
 	GPIO_InitTypeDef GPIO_InitStruct;
 	GPIO_InitStruct.GPIO_Mode = GPIO_Mode_Out_PP;
 	GPIO_InitStruct.GPIO_Speed = GPIO_Speed_50MHz;

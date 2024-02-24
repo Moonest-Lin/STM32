@@ -3,7 +3,7 @@
 
 void LightSensor_Init(void)
 {
-	RCC_APB2PeriphClockCmd($LightSensor_RCC, ENABLE);
+	RCC_APB2PeriphClockCmd($LightSensor_GPIORCC, ENABLE);
 	
 	GPIO_InitTypeDef GPIO_InitStruct;
 	GPIO_InitStruct.GPIO_Mode = GPIO_Mode_IPU;

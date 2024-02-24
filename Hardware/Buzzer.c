@@ -2,7 +2,7 @@
 
 void BUZZER_Init(void)
 {
-	RCC_APB2PeriphClockCmd($Buzzer_RCC, ENABLE);
+	RCC_APB2PeriphClockCmd($Buzzer_GPIORCC, ENABLE);
 	GPIO_InitTypeDef GPIO_InitStruct;
 	GPIO_InitStruct.GPIO_Mode = GPIO_Mode_Out_PP;
 	GPIO_InitStruct.GPIO_Speed = GPIO_Speed_50MHz;

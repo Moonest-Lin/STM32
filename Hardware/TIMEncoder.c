@@ -4,7 +4,7 @@ void TIMEncoder_Init(void)
 {
 	RCC_APB1PeriphClockCmd($TIMEncoder_TIMRCC, ENABLE);
 	
-	RCC_APB2PeriphClockCmd($TIMEncoder_RCC, ENABLE);
+	RCC_APB2PeriphClockCmd($TIMEncoder_GPIORCC, ENABLE);
 	
 	GPIO_InitTypeDef GPIO_InitStruct;
 	GPIO_InitStruct.GPIO_Mode = GPIO_Mode_IPU;
