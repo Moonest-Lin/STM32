@@ -37,12 +37,16 @@ void LED_Reversal(u8 led)
 {
 	if(led==0)
 	{
-		if(GPIO_ReadOutputDataBit($LED0_GPIOPort, $LED0_GPIOPin)==0) GPIO_SetBits($LED0_GPIOPort, $LED0_GPIOPin);
-		else GPIO_ResetBits($LED0_GPIOPort, $LED0_GPIOPin);
+		if(GPIO_ReadOutputDataBit($LED0_GPIOPort, $LED0_GPIOPin)==0)
+			GPIO_SetBits($LED0_GPIOPort, $LED0_GPIOPin);
+		else
+			GPIO_ResetBits($LED0_GPIOPort, $LED0_GPIOPin);
 	}
 	else if(led==1)
 	{
-		if(GPIO_ReadOutputDataBit($LED1_GPIOPort, $LED1_GPIOPin)==0) GPIO_SetBits($LED1_GPIOPort, $LED1_GPIOPin);
-		else GPIO_ResetBits($LED1_GPIOPort, $LED1_GPIOPin);
+		if(GPIO_ReadOutputDataBit($LED1_GPIOPort, $LED1_GPIOPin)==0)
+			GPIO_SetBits($LED1_GPIOPort, $LED1_GPIOPin);
+		else
+			GPIO_ResetBits($LED1_GPIOPort, $LED1_GPIOPin);
 	}
 }	
