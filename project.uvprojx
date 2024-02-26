@@ -675,6 +675,36 @@
               <FileType>5</FileType>
               <FilePath>.\System\IntTimer.h</FilePath>
             </File>
+            <File>
+              <FileName>PWM.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\System\PWM.c</FilePath>
+            </File>
+            <File>
+              <FileName>PWM.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\System\PWM.h</FilePath>
+            </File>
+            <File>
+              <FileName>IC.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\System\IC.c</FilePath>
+            </File>
+            <File>
+              <FileName>IC.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\System\IC.h</FilePath>
+            </File>
+            <File>
+              <FileName>PWMI.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\System\PWMI.c</FilePath>
+            </File>
+            <File>
+              <FileName>PWMI.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\System\PWMI.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -754,6 +784,36 @@
               <FileName>OLED_Font.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\Hardware\OLED_Font.h</FilePath>
+            </File>
+            <File>
+              <FileName>Servo.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Hardware\Servo.c</FilePath>
+            </File>
+            <File>
+              <FileName>Servo.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Hardware\Servo.h</FilePath>
+            </File>
+            <File>
+              <FileName>Motor.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Hardware\Motor.c</FilePath>
+            </File>
+            <File>
+              <FileName>Motor.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Hardware\Motor.h</FilePath>
+            </File>
+            <File>
+              <FileName>TIMEncoder.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Hardware\TIMEncoder.c</FilePath>
+            </File>
+            <File>
+              <FileName>TIMEncoder.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Hardware\TIMEncoder.h</FilePath>
             </File>
           </Files>
         </Group>

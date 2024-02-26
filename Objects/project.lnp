@@ -31,6 +31,7 @@
 ".\objects\pwm.o"
 ".\objects\ic.o"
 ".\objects\pwmi.o"
+".\objects\ad.o"
 ".\objects\led.o"
 ".\objects\key.o"
 ".\objects\buzzer.o"

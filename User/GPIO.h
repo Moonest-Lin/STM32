@@ -132,3 +132,14 @@
 #define $TIMEncoder_GPIOPort 		GPIOB
 #define $TIMEncoder_GPIOPin1 		GPIO_Pin_9
 #define $TIMEncoder_GPIOPin2 		GPIO_Pin_9
+
+//AD
+#define $AD_ADCRCC 					RCC_APB2Periph_ADC1
+#define $AD_GPIORCC 				RCC_APB2Periph_GPIOA
+#define $AD_GPIOPort 				GPIOA
+#define $AD_GPIOPin	 				GPIO_Pin_0
+#define $AD_ADC						ADC1
+#define $AD_ADCChannel				ADC_Channel_0
+#define $AD_ADCRank					1
+#define $AD_ADCTime					ADC_SampleTime_55Cycles5
+
