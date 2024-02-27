@@ -31,3 +31,4 @@
 .\objects\main.o: .\Hardware\LED.h
 .\objects\main.o: .\Hardware\CountSensor.h
 .\objects\main.o: .\System\delay.h
+.\objects\main.o: .\System\usart.h

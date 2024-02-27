@@ -143,3 +143,7 @@
 #define $AD_ADCRank					1
 #define $AD_ADCTime					ADC_SampleTime_55Cycles5
 
+//USART
+#define $USART_GPIORCC 			RCC_APB2Periph_GPIOA
+#define $USART_GPIOPort 			GPIOA
+#define $USART_GPIOPin 			GPIO_Pin_9

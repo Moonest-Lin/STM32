@@ -705,6 +705,36 @@
               <FileType>5</FileType>
               <FilePath>.\System\PWMI.h</FilePath>
             </File>
+            <File>
+              <FileName>AD.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\System\AD.c</FilePath>
+            </File>
+            <File>
+              <FileName>AD.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\System\AD.h</FilePath>
+            </File>
+            <File>
+              <FileName>DMA_.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\System\DMA_.c</FilePath>
+            </File>
+            <File>
+              <FileName>DMA_.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\System\DMA_.h</FilePath>
+            </File>
+            <File>
+              <FileName>USART.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\System\USART.c</FilePath>
+            </File>
+            <File>
+              <FileName>USART.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\System\USART.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
