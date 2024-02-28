@@ -1,29 +1,14 @@
 #include "stm32f10x.h"
-#include "LED.h"
-#include "CountSensor.h"
-#include "delay.h"
-#include "usart.h"
-
-u8 Num = 0;
+#include "OLED.h"
 
 int main(void)
 {
-	u8 test[4]={'A','B','C','D'};
-	s8 ttest[]="TTT888";
-	LED_Init();
-	CountSensor_Init();
-	Serial_Init();
-	Serial_SendByte('A');
-	Serial_SendArray(test);
-	Serial_SendString(ttest);
-	Serial_SendNum(12345);
+	OLED_Init();
+	OLED_ShowChar(1,1,'A');
+	OLED_ShowString(1,3,"Hello");
+	OLED_ShowHexNum(4,1,20,2);
+	OLED_ShowNum(3,1,666,4);
 	while(1)
 	{
-		Num = CountSensor_GetCount();
-		if(Num%2==1)
-		{
-		LED_Reversal(0);
-		LED_Reversal(1);
-		}
 	}
 }

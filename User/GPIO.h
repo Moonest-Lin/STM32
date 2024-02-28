@@ -24,10 +24,12 @@
 #define $KeyUp_GPIOPin	 			GPIO_Pin_0
 
 //OLED
-#define $OLEDSCL_GPIOPort 			GPIOB
-#define $OLEDSCL_GPIOPin 			GPIO_Pin_9
-#define $OLEDSDA_GPIOPort 			GPIOB
-#define $OLEDSDA_GPIOPin 			GPIO_Pin_9
+#define $OLEDSCL_GPIORCC 			RCC_APB2Periph_GPIOA
+#define $OLEDSCL_GPIOPort 			GPIOA
+#define $OLEDSCL_GPIOPin 			GPIO_Pin_7
+#define $OLEDSDA_GPIORCC 			RCC_APB2Periph_GPIOA
+#define $OLEDSDA_GPIOPort 			GPIOA
+#define $OLEDSDA_GPIOPin 			GPIO_Pin_6
 
 //Buzzer 							B9
 #define $Buzzer_GPIORCC 			RCC_APB2Periph_GPIOB
