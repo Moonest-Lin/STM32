@@ -29,3 +29,4 @@
 .\objects\usart.o: .\Library\stm32f10x_usart.h
 .\objects\usart.o: .\Library\stm32f10x_wwdg.h
 .\objects\usart.o: .\Library\misc.h
+.\objects\usart.o: C:\Software\MDK\ARM\ARMCC\Bin\..\include\stdio.h

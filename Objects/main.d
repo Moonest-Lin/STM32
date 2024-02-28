@@ -28,4 +28,5 @@
 .\objects\main.o: .\Library\stm32f10x_usart.h
 .\objects\main.o: .\Library\stm32f10x_wwdg.h
 .\objects\main.o: .\Library\misc.h
-.\objects\main.o: .\Hardware\OLED.h
+.\objects\main.o: .\System\usart.h
+.\objects\main.o: C:\Software\MDK\ARM\ARMCC\Bin\..\include\stdio.h
